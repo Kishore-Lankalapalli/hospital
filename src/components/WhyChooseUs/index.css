@@ -1,0 +1,227 @@
+.why-choose-main-container {
+  height: 160vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+}
+* {
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 900px) {
+  .why-choose-main-container {
+    height: 110vh;
+  }
+}
+.why-choose-bg-container {
+  background-image: linear-gradient(to bottom, #ffffff, #aacdf0);
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  color: transparent;
+}
+.why-choose-heading {
+  font-size: 30px;
+  color: #2f2f2f;
+}
+
+@media screen and (min-width: 900px) {
+  .why-choose-heading {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+}
+.choose-text {
+  color: #008dd9;
+}
+
+.we-want-heart-text {
+  font-size: 14px;
+  color: #6e6e6e;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  .we-want-heart-text {
+    font-size: 18px;
+  }
+}
+.why-choose-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.why-choose-us-cards-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 40px;
+}
+@media screen and (min-width: 900px) {
+  .why-choose-us-cards-container {
+    flex-direction: row;
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
+}
+.card-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .card-content-container {
+    flex-direction: row;
+
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+.image-why-choose-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .image-why-choose-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+  }
+}
+.why-choose-card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+
+  width: 100%;
+  height: 90px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 900px) {
+  .why-choose-card-container {
+    height: 170px;
+    width: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 15px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+  }
+}
+.certification-image {
+  height: 40px;
+  width: 40px;
+  margin-right: 18px;
+}
+
+@media screen and (min-width: 900px) {
+  .certification-image {
+    display: none;
+  }
+  .down-icon {
+    display: none;
+  }
+}
+.nabl-heading-text {
+  font-size: 20px;
+  color: #2f2f2f;
+  margin-right: 18px;
+  margin-left: 0px;
+}
+.why-choose-card4-container {
+  min-height: 190px;
+  padding: 30px;
+}
+.transperancy-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  .transperancy-details-container {
+    margin-top: 0px;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
+.transperency-text {
+  font-size: 13px;
+  color: #2f2f2f;
+  line-height: 17px;
+  margin-top: 0px;
+}
+.cross-icon {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 900px) {
+  .cross-icon {
+    display: none;
+  }
+}
+.doctor-image {
+  width: 360px;
+  height: 270px;
+  align-self: flex-end;
+}
+@media screen and (min-width: 900px) {
+  .doctor-image {
+    height: 500px;
+    width: 570px;
+    align-self: center;
+    margin-right: 100px;
+  }
+}
+
+.certification-text {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .certification-text {
+    display: block;
+    font-size: 13px;
+    color: #2f2f2f;
+    margin-top: 0px;
+  }
+}
+.large-certification-image {
+  display: none;
+}
+@media screen and (min-width: 900px) {
+  .large-certification-image {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin-top: -50px;
+    margin-bottom: 140px;
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .card3 {
+    margin-top: 40px;
+  }
+}

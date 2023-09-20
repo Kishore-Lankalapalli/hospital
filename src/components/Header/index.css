@@ -1,0 +1,104 @@
+.header-main-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 900px) {
+  .header-main-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.company-icon-image {
+  height: 30px;
+  width: 130px;
+}
+
+@media screen and (min-width: 670px) {
+  .company-icon-image {
+    height: 35px;
+    width: 150px;
+  }
+}
+.hamburger-icon {
+  height: 25px;
+  width: 25px;
+}
+
+@media screen and (min-width: 670px) {
+  .hamburger-icon {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hamburger-icon {
+    display: none;
+  }
+}
+.nav-items-list-container {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .nav-items-list-container {
+    display: flex;
+    list-style-type: none;
+  }
+}
+.nav-item-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin-right: 14px;
+}
+.selected-nav-item-text {
+  color: #50a1f2;
+}
+.for-patients-buttons-container {
+  display: none;
+}
+@media screen and (min-width: 900px) {
+  .for-patients-buttons-container {
+    display: flex;
+  }
+}
+
+.for-patient-button {
+  background-color: #00486c;
+  border-width: 0px;
+  height: 30px;
+  width: 110px;
+  color: #fff;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+.play-store-button {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .play-store-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    background-color: #242f3b;
+    border-width: 0px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+}
+.play-icon {
+  color: #fff;
+  margin-right: 3px;
+  height: 15px;
+  width: 15px;
+}
